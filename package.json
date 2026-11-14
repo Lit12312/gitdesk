@@ -1,0 +1,17 @@
+{
+  "name": "gitdesk",
+  "productName": "GitDesk",
+  "version": "1.0.1",
+  "description": "GitDesk - 轻量 Git 桌面工具",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/git-layer.test.js",
+    "pack": "node tools/pack.js"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.4.2",
+    "electron": "^45.3.2"
+  }
+}
